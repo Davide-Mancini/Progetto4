@@ -1,0 +1,184 @@
+body {
+  font-family: "Roboto";
+}
+h1,
+h2,
+h4,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2em;
+}
+
+svg {
+  display: none;
+}
+.nascosti {
+  display: none;
+}
+header {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #191919;
+  position: sticky;
+  top: 0;
+}
+header div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header button {
+  border-radius: 50px;
+  padding: 0.8em;
+  background-color: #191919;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+header img {
+  width: 200px;
+  cursor: pointer;
+}
+.yellowSection {
+  background-color: #ffc017;
+  padding: 2em;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.yellowSection button {
+  border-radius: 50px;
+  padding: 0.3em 1.5em;
+  background-color: #191919;
+  color: white;
+}
+.yellowSection h1 {
+  font-size: 3.5em;
+}
+
+.trendingSection img {
+  border-radius: 100%;
+  width: 20px;
+  margin-right: 0.3em;
+}
+.trendingSection h6 {
+  display: flex;
+  align-items: center;
+}
+.trendingSection article {
+  display: flex;
+  padding: 1em;
+  /* flex-basis: 33%; */
+}
+.numeri {
+  font-weight: bold;
+  font-size: 1.7em;
+  color: #e6e7e6;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+.trendingSection div {
+  display: inline-block;
+}
+.trendingSection {
+  border-bottom: 0.5px solid gray;
+  margin-bottom: 1.5em;
+}
+.Discover {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.Discover div {
+  border: 1px solid gray;
+  width: 100px;
+  padding: 0.5em;
+  margin: 0.2em;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  border-bottom: 0.5px solid #97999d;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  color: #97999d;
+}
+.box h4 {
+  flex-basis: 100%;
+  color: #191919;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+header ul li {
+  color: black;
+  cursor: pointer;
+}
+ul li {
+  margin: 0.5em;
+  color: #97999d;
+}
+.Articoli {
+  padding: 0.5em;
+}
+.Articoli article {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.Articoli div {
+  display: inline-block;
+}
+div + img {
+  width: 180px;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+@media screen and (min-width: 1200px) {
+  .nascosti {
+    display: list-item;
+  }
+  .trendingSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .box {
+    width: 30vw;
+  }
+  .Articoli {
+    width: 70vw;
+  }
+  .colonne {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .trendingSection article {
+    flex-basis: 25%;
+  }
+}
+.spostaP {
+  position: relative;
+}
+.spostaP img {
+  position: absolute;
+}
+article h6 {
+  font-size: em;
+}
