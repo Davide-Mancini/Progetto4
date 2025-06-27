@@ -216,6 +216,10 @@ span {
     justify-content: space-between;
     align-items: center;
   }
+  .box ul {
+    border-top: 1px solid;
+    margin-top: 1em;
+  }
   .Articoli {
     width: 70vw;
   }
