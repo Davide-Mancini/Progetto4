@@ -141,8 +141,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  border-top: 1px solid;
-  margin-top: 1em;
 }
 header ul li {
   color: black;
